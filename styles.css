@@ -160,6 +160,7 @@ form input::placeholder {
     padding: 15px 20px;
 }
     form .btn {
+    padding: 0 20px;
     height: 45px;
     border-radius: 31px;
 }
