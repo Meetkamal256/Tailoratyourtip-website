@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #333; 
-   background-image: linear-gradient(to right, #333, #f0f0f0, #333);
+    background-image: linear-gradient(to right, #333, #f0f0f0, #333);
     background-size: 200% auto;
     animation: backgroundAnimation 10s infinite linear;
     
