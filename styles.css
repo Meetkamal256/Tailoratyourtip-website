@@ -23,6 +23,10 @@ body {
     justify-content: center;
     align-items: center;
     color: #333; 
+   background-image: linear-gradient(to right, #333, #f0f0f0, #333);
+    background-size: 200% auto;
+    animation: backgroundAnimation 10s infinite linear;
+    
 }
 
 nav {
@@ -141,6 +145,12 @@ form input::placeholder {
 
 .links a:hover img {
     filter: brightness(0.3); 
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 
