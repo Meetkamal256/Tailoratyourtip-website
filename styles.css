@@ -128,6 +128,7 @@ form input::placeholder {
 .links {
     margin-top: 14%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -135,7 +136,7 @@ form input::placeholder {
     margin: 0 10px;
 }
 
-.links a img {
+.links a i {
     width: 30px;
     height: 30px;
     cursor: pointer; 
@@ -143,8 +144,12 @@ form input::placeholder {
     transition: filter 0.3s ease; 
 }
 
-.links a:hover img {
+.links a:hover i {
     filter: brightness(0.3); 
+    animation: bounce 0.5s ease infinite alternate;
+}
+.links i {
+    color: black;
 }
 
 @keyframes backgroundAnimation {
@@ -224,6 +229,15 @@ form input::placeholder {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); /* Adjust the distance of the bounce */
     }
 }
 
