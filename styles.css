@@ -162,6 +162,20 @@ form input::placeholder {
     opacity: 0; /* Initially hide the elements */
 }
 
+@keyframes btnHover {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-3px);
+    }
+}
+
+/* Apply the hover animation to buttons */
+.btn:hover {
+    animation: btnHover 0.2s ease-out forwards;
+}
+
 /* Media queries for smaller devices */
 @media screen and (max-width: 768px) {
     .content {
@@ -231,4 +245,3 @@ form input::placeholder {
 }
 
 
-}
