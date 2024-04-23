@@ -78,12 +78,15 @@ nav {
 .content h1 {
     font-size: 25px;
     font-weight: 400;
-    max-width: 600px; 
+    max-width: 650px; 
     margin: 0 auto; 
     padding: 0 20px; 
     animation: fadeInUp 1s ease-out forwards;
     opacity: 0; /* Initially hide the h1 element */
 }
+
+
+
 
 form {
     width: 90%;
@@ -209,6 +212,9 @@ form input::placeholder {
 .btn:hover {
     animation: btnHover 0.2s ease-out forwards;
 }
+
+
+
 
 @keyframes fadeInUp {
     from {
