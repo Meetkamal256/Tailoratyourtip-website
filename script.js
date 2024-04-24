@@ -1,6 +1,6 @@
 function typeText() {
     var mainText = "Exciting news! Tailor at your tip is launching soon."; // Static text
-    var loopText = "Sign up and be the first to experience personalized tailoring at it’s finest!"; // Text to be looped
+    var loopText = " Sign up and be the first to experience personalized tailoring at it’s finest!"; // Text to be looped
     var interval = 100; // Adjust the typing speed (in milliseconds)
     var index = 0; // Initialize the index for typing
 
@@ -21,6 +21,10 @@ function typeText() {
 
         // Concatenate next letter to the current text
         var newText = currentText + loopText.charAt(index);
+        // Check if the last character of the main text is a full stop and there's no space
+        if (currentText.endsWith('.') && currentText[currentText.length - 1] !== ' ') {
+            newText += ' '; // Add a space after the full stop
+        }
         h1Element.textContent = newText;
 
         // Increment index for next letter

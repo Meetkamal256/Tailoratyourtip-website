@@ -23,9 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     color: #333; 
-    background-image: linear-gradient(to right, #333, #f0f0f0, #333);
-    background-size: 200% auto;
-    animation: backgroundAnimation 10s infinite linear;
     
 }
 
@@ -78,11 +75,11 @@ nav {
 .content h1 {
     font-size: 25px;
     font-weight: 400;
-    max-width: 650px; 
+    max-width: 600px; 
     margin: 0 auto; 
     padding: 0 20px; 
     animation: fadeInUp 1s ease-out forwards;
-    opacity: 0; Initially hide the h1 element
+    opacity: 0; //Initially hide the h1 element
 }
 
 
@@ -153,11 +150,11 @@ form input::placeholder {
     color: black;
 }
 
-@keyframes backgroundAnimation {
+/* @keyframes backgroundAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-}
+} */
 
 
 /* Define the animation */
