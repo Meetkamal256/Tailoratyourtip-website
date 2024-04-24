@@ -14,11 +14,11 @@ body {
     font-family: 'Dancing script', sans-serif;
     background-color: #fff; 
     color: #333; 
+    
 }
 
 .hero {
     width: 100%;
-    min-height: calc(100vh - 80px); /* Adjusted to accommodate the fixed navigation bar */
     background-color: #f0f0f0; 
     background-image: url("./images/background-2.jpg");
     background-size: cover;
@@ -53,11 +53,10 @@ nav {
 }
 
 .logo img {
-      filter: invert(10) brightness(30);
+    filter: invert(10) brightness(30);
     width: 250px; 
     height: 80px; 
-    object-fit: cover;
-    
+    object-fit: cover;   
 }
 
 .btn {
@@ -253,6 +252,11 @@ form input::placeholder {
 
 /* Media queries for smaller devices */
 @media screen and (max-width: 768px) {
+    nav {
+    padding: 20px 3%;
+    
+}
+    
     .content {
         margin-top: 25%;
     }
@@ -283,19 +287,26 @@ form input::placeholder {
         margin-top: 30%;
     }
     
-    .logo {
-        font-size: 20px;
-    }
+ 
     
     nav {
         padding: 15px 5%;
     }
 }
 @media screen and (max-width: 576px) {
+
+nav {
+    width: 100%;
+    padding: 20px 3%;
+    
+}
+   
     .logo img {
-        width: 120px;
-        height: 50px;
-    }
+    filter: invert(10) brightness(50);
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
     
     .btn {
         font-size: 15px;
