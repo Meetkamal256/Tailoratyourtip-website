@@ -76,7 +76,7 @@ nav {
 }
 
 .content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     max-width: 600px; 
     margin: 0 auto; 
@@ -252,7 +252,7 @@ form input::placeholder {
     }
     
     .content h1 {
-        font-size: 24px; /* Adjusted font size for smaller screens */
+        font-size: 35px; /* Adjusted font size for smaller screens */
         padding: 0 10px; /* Reduced padding for smaller screens */
     }
     
@@ -296,7 +296,7 @@ form input::placeholder {
         padding: 12px 18px;    
     }
     .content h1 {
-        font-size: 20px;
+        font-size: 28px;
     }
     
     form .btn {
