@@ -20,13 +20,16 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #f0f0f0; 
+    background-image: url("./images/background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 15px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #333; 
-    
 }
 
 nav {
@@ -77,8 +80,9 @@ nav {
 
 .content h1 {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 900;
     max-width: 600px; 
+    color: #fff;
     margin: 0 auto; 
     padding: 0 20px; 
     animation: fadeInUp 1s ease-out forwards;
@@ -135,13 +139,14 @@ form input::placeholder {
 
 .links a {
     margin: 0 10px;
+    
 }
 
 .links a i {
+    color: #ffff;
     width: 30px;
     height: 30px;
     cursor: pointer; 
-    filter: brightness(0); 
     transition: filter 0.3s ease; 
 }
 
@@ -149,15 +154,13 @@ form input::placeholder {
     filter: brightness(0.3); 
     animation: bounce 0.5s ease infinite alternate;
 }
-.links i {
-    color: black;
-}
 
-/* @keyframes backgroundAnimation {
+
+@keyframes animatedBackground {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-} */
+}
 
 
 /* Define the animation */
