@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@100..900&display=swap');
+
+
 /* Default styles */
 
 
@@ -8,7 +11,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing script', sans-serif;
     background-color: #fff; 
     color: #333; 
 }
@@ -73,7 +76,7 @@ nav {
 }
 
 .content h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     max-width: 600px; 
     margin: 0 auto; 
@@ -249,7 +252,7 @@ form input::placeholder {
     }
     
     .content h1 {
-        font-size: 20px; /* Adjusted font size for smaller screens */
+        font-size: 24px; /* Adjusted font size for smaller screens */
         padding: 0 10px; /* Reduced padding for smaller screens */
     }
     
@@ -293,7 +296,7 @@ form input::placeholder {
         padding: 12px 18px;    
     }
     .content h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     
     form .btn {
