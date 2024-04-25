@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Slab:wght@100..900&display=swap');
+
 /* Default styles */
 
 * {
@@ -61,6 +62,7 @@ nav {
 .btn {
   background-color: #333;
   color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   padding: 15px 30px;
   border: none;
@@ -74,13 +76,13 @@ nav {
 }
 
 .content {
+  margin-top: 10%;
   text-align: center;
 }
 
 .content h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 80px;
-  font-weight: 900;
   max-width: 800px;
   color: #fff;
   font-weight: 900;
@@ -91,7 +93,7 @@ nav {
 
 .content p {
   font-size: 35px;
-  color: #ccc;
+  color: #fff;
   margin-top: 20px;
 }
 
@@ -124,7 +126,7 @@ form .btn {
   border-radius: 31px;
   background: #333;
   color: #fff;
-  font-family: "Dancing script", Cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 form .btn:hover {
@@ -136,7 +138,7 @@ form input::placeholder {
   font-size: 16px;
 }
 
-/* .links {
+.links {
     margin-top: 14%;
     display: flex;
     align-items: center;
@@ -144,9 +146,8 @@ form input::placeholder {
 }
 
 .links a {
-    margin: 0 10px;
-    
-}
+    margin: 0 10px;    
+} 
 
 .links a i {
     color: #ffff;
@@ -159,7 +160,7 @@ form input::placeholder {
 .links a:hover i {
     filter: brightness(0.3); 
     animation: bounce 0.5s ease infinite alternate;
-} */
+} 
 
 /* Define the animation */
 @keyframes fadeIn {
