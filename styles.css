@@ -231,45 +231,42 @@ form input::placeholder {
   .logo {
     margin-left: -100px;
   }
-
+  
   .logo img {
     width: 300px;
     height: 70px;
     margin: 0;
     padding: 0;
   }
-
+  
   .content h1 {
     font-size: 60px;
     margin-top: 5%;
   }
-
+  
   .content p {
     font-size: 30px;
     color: #ccc;
   }
-
+  
   form {
     width: 95%;
     max-width: 600px;
     margin-top: 30px;
   }
-
+  
   form input {
     font-size: 14px;
     padding: 15px 20px;
   }
-
+  
   form .btn {
     width: 120px;
     height: 50px;
     font-size: 16px;
   }
-
-  .links {
-    margin-top: 30%;
-  }
-
+  
+  
   nav {
     padding: 15px 5%;
   }
@@ -278,41 +275,41 @@ form input::placeholder {
   .logo {
     margin-left: -100px;
   }
-
+  
   .hero {
     padding: 0 10px;
   }
-
+  
   .logo img {
     width: 300px;
     height: 70px;
     margin: 0;
     padding: 0;
   }
-
-  .btn {
+  
+  .footer-btn {
     font-size: 15px;
     padding: 12px 18px;
   }
   .content h1 {
     font-size: 45px;
   }
-
+  
   .content p {
     font-size: 16px;
   }
-
+  
   form {
     width: 100%;
     height: 40px;
   }
-
+  
   form .btn {
     width: 100px;
+  }
     height: 45px;
     font-size: 14px;
-  }
-
+  
   .content,
   .form,
   .links {
