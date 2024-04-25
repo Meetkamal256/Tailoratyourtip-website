@@ -18,8 +18,7 @@ body {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("./images/background-2.jpg");
   background-blend-mode: multiply;
   background-size: cover;
@@ -32,7 +31,6 @@ body {
   align-items: center;
   color: #333;
 }
-
 
 nav {
   width: 100%;
@@ -80,7 +78,7 @@ nav {
 }
 
 .content h1 {
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 900;
   max-width: 800px;
   color: #fff;
@@ -88,6 +86,12 @@ nav {
   margin: 0 auto;
   animation: fadeInUp 1s ease-out forwards;
   opacity: 0;
+}
+
+.content p {
+  font-size: 35px;
+  color: #ccc;
+  margin-top: 20px;
 }
 
 form {
@@ -219,8 +223,7 @@ form input::placeholder {
 
 /* Media queries for smaller devices */
 @media screen and (max-width: 768px) {
-   
-   .logo {
+  .logo {
     margin-left: -100px;
   }
   
@@ -232,8 +235,14 @@ form input::placeholder {
   }
   
   .content h1 {
-    font-size: 35px;
+      font-size: 70px; 
   }
+  
+  .content p {
+    font-size: 40px;
+    color: #ccc;
+  }
+  
   
   form {
     width: 95%;
@@ -261,9 +270,12 @@ form input::placeholder {
   }
 }
 @media screen and (max-width: 576px) {
-    
   .logo {
     margin-left: -100px;
+  }
+  
+  .hero {
+    padding: 0 10px;
   }
   
   .logo img {
@@ -278,7 +290,11 @@ form input::placeholder {
     padding: 12px 18px;
   }
   .content h1 {
-    font-size: 28px;
+    font-size: 45px;
+  }
+  
+  .content p {
+    font-size: 18px;
   }
   
   form {
