@@ -19,6 +19,7 @@ body {
 
 .hero {
     width: 100%;
+    min-height: 100vh;
     background-color: #f0f0f0; 
     background-image: url("./images/background-2.jpg");
     background-size: cover;
@@ -76,7 +77,7 @@ nav {
 }
 
 .content {
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
 }
 
