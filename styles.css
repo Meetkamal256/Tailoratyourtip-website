@@ -18,7 +18,7 @@ body {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
     url("./images/background-2.jpg");
   background-blend-mode: multiply;
   background-size: cover;
