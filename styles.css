@@ -72,11 +72,13 @@ nav {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transform: scale(1);
+  transition: background-color 0.3s ease forwards;
 }
 
 .btn:hover {
   background-color: #555;
+  transform: scale(1.05);
 }
 
 .content {
@@ -164,15 +166,19 @@ form input::placeholder {
   filter: brightness(0.3);
   animation: bounce 0.5s ease infinite alternate;
 }
-
 .footer-btn {
   position: fixed;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) scale(1);
   font-weight: bold;
   letter-spacing: 4px;
   margin-bottom: 20px;
+  transition: 0.2s ease;
+}
+
+.footer-btn:hover {
+  transform: translateX(-50%) scale(1.05);
 }
 
 /* Define the animation */
@@ -209,20 +215,6 @@ form input::placeholder {
 .form {
   animation: fadeIn 1s ease-out forwards;
   opacity: 0; /* Initially hide the elements */
-}
-
-@keyframes btnHover {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-3px);
-  }
-}
-
-/* Apply the hover animation to buttons */
-.btn:hover {
-  animation: btnHover 0.2s ease-out forwards;
 }
 
 @keyframes fadeInUp {
