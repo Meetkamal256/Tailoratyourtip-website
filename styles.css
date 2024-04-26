@@ -298,6 +298,7 @@ form input::placeholder {
   
   .footer-btn {
     padding: 8px 20px;
+    font-size: 15px;
   }
   
   .content h1 {
