@@ -173,6 +173,7 @@ form input::placeholder {
   transform: translateX(-50%) scale(1);
   font-weight: bold;
   letter-spacing: 4px;
+  white-space: nowrap;
   margin-bottom: 20px;
   transition: 0.2s ease;
 }
